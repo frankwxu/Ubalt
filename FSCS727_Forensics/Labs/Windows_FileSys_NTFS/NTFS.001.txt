@@ -1,0 +1,45 @@
+﻿Created By AccessData® FTK® Imager 3.2.0.0 
+
+Case Information: 
+Acquired using: ADI3.2.0.0
+Case Number: UB-FSCS727-003
+Evidence Number: NTFS
+Unique description: This is NTFS
+Examiner: Frank
+Notes: This is NTFS
+
+--------------------------------------------------------------
+
+Information for C:\Users\Fxu\Dropbox\Public\forTeaching\images\NTFS:
+
+Physical Evidentiary Item (Source) Information:
+[Device Info]
+ Source Type: Physical
+[Drive Geometry]
+ Cylinders: 31
+ Tracks per Cylinder: 255
+ Sectors per Track: 63
+ Bytes per Sector: 512
+ Sector Count: 513,076
+[Physical Drive Information]
+ Drive Model: PINGTEC Flash Disk USB Device
+ Drive Serial Number: 061826000D3A6900
+ Drive Interface Type: USB
+ Removable drive: True
+ Source data size: 250 MB
+ Sector count:    513076
+[Computed Hashes]
+ MD5 checksum:    fa7eecd50a691ab3245653ae91b762b2
+ SHA1 checksum:   526ceeaed18245cf29dfafb8a7a3cd7a6bf561d0
+
+Image Information:
+ Acquisition started:   Mon Oct 08 14:16:46 2018
+ Acquisition finished:  Mon Oct 08 14:17:19 2018
+ Segment list:
+  C:\Users\Fxu\Dropbox\Public\forTeaching\images\NTFS.001
+
+Image Verification Results:
+ Verification started:  Mon Oct 08 14:17:19 2018
+ Verification finished: Mon Oct 08 14:17:20 2018
+ MD5 checksum:    fa7eecd50a691ab3245653ae91b762b2 : verified
+ SHA1 checksum:   526ceeaed18245cf29dfafb8a7a3cd7a6bf561d0 : verified
