@@ -1,0 +1,45 @@
+﻿Created By AccessData® FTK® Imager 3.2.0.0 
+
+Case Information: 
+Acquired using: ADI3.2.0.0
+Case Number: UB-FSCS-727
+Evidence Number: 002
+Unique description: FAT 32
+Examiner: Frank Xu
+Notes: contain deleted files
+
+--------------------------------------------------------------
+
+Information for C:\Users\Fxu\Dropbox\Public\forTeaching\images\fat32\fat32:
+
+Physical Evidentiary Item (Source) Information:
+[Device Info]
+ Source Type: Physical
+[Drive Geometry]
+ Cylinders: 31
+ Tracks per Cylinder: 255
+ Sectors per Track: 63
+ Bytes per Sector: 512
+ Sector Count: 513,076
+[Physical Drive Information]
+ Drive Model: PINGTEC Flash Disk USB Device
+ Drive Serial Number: 061826000D3A6900
+ Drive Interface Type: USB
+ Removable drive: True
+ Source data size: 250 MB
+ Sector count:    513076
+[Computed Hashes]
+ MD5 checksum:    cffed6223b47644b88d829166961e44d
+ SHA1 checksum:   3768e5ff9ee4399c819c011b89649d60e20bf2dd
+
+Image Information:
+ Acquisition started:   Mon Oct 08 08:44:47 2018
+ Acquisition finished:  Mon Oct 08 08:45:20 2018
+ Segment list:
+  C:\Users\Fxu\Dropbox\Public\forTeaching\images\fat32\fat32.001
+
+Image Verification Results:
+ Verification started:  Mon Oct 08 08:45:20 2018
+ Verification finished: Mon Oct 08 08:45:21 2018
+ MD5 checksum:    cffed6223b47644b88d829166961e44d : verified
+ SHA1 checksum:   3768e5ff9ee4399c819c011b89649d60e20bf2dd : verified
