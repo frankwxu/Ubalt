@@ -1,0 +1,4 @@
+wget https://www.dropbox.com/s/40ak15mk5xr8hvk/how_to_crack_pwd_123.pdf
+apt-get install pdfcrack
+pdfcrak --version
+pdfcrack -f how_to_crack_pwd_123.pdf
