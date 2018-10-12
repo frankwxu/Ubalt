@@ -5,7 +5,7 @@ http://pentestcorner.com/cracking-microsoft-office-97-03-2007-2010-2013-password
 
 For instructor
 1. create a link in Dropbox https://www.dropbox.com/s/gxh1kntxkp4hyyx/office2john.py
-2. wget https://www.dropbox.com/s/gxh1kntxkp4hyyx/office2john.py // in kali
+2. wget https://www.dropbox.com/s/lr0ratysvennns4/office2john.py // in kali
 3. wget https://www.dropbox.com/s/6khc26nlh055cmv/encrypted_file_123abc_2013_v.docx //download the encrypted Word File, the passwword is 123abc
 4. chmod 777 office2john.py   // make it runable
 5. ./office2john.py encrypted_file_123abc_2013_v.docx 
