@@ -3080,3 +3080,4 @@ if __name__ == "__main__":
             ret = process_file(sys.argv[i].decode("utf8"))
         else:
             ret = process_file(sys.argv[i])
+
