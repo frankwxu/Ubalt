@@ -1,1 +1,5 @@
-# Forensics Science Labs Developed by Dr. Frank Xu wxu@ubalt.edu
+# Forensics Science Lab manuals are developed by Dr. Frank Xu wxu@ubalt.edu. Email me if you have any questions or concerns.
+
+# The lab materials are free for educational purposes. Just simply email me your name and institutions. 
+
+# Let me know if you have lab materials to share.
