@@ -25,8 +25,8 @@ mkdir opt
 cd opt
 git clone https://github.com/Veil-Framework/Veil.git
 cd Veil
-cd setup
-./setup.sh   (enter "y" if asks)
+cd config
+./setup.sh --force --silent (enter "y" if asks)
 (close the console)
 
 4. Attacker set payload options using Veil
