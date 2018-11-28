@@ -1,0 +1,75 @@
+Received: from MW2PR16MB2188.namprd16.prod.outlook.com (2603:10b6:302:1::39)
+ by MWHPR16MB1647.namprd16.prod.outlook.com with HTTPS via
+ MW2PR2101CA0026.NAMPRD21.PROD.OUTLOOK.COM; Wed, 6 Jun 2018 14:45:22 +0000
+Received: from MW2PR16MB2201.namprd16.prod.outlook.com (52.132.181.32) by
+ MW2PR16MB2188.namprd16.prod.outlook.com (52.132.181.31) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.820.15; Wed, 6 Jun 2018 14:45:12 +0000
+Authentication-Results: bowiestate.edu; dkim=none (message not signed)
+ header.d=none;bowiestate.edu; dmarc=none action=none
+ header.from=bowiestate.edu;
+Received: from MW2PR16MB2170.namprd16.prod.outlook.com (52.132.181.25) by
+ MW2PR16MB2201.namprd16.prod.outlook.com (52.132.181.32) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.820.14; Wed, 6 Jun 2018 14:45:08 +0000
+Received: from MW2PR16MB2170.namprd16.prod.outlook.com
+ ([fe80::6d83:59ba:9de5:7e9a]) by MW2PR16MB2170.namprd16.prod.outlook.com
+ ([fe80::6d83:59ba:9de5:7e9a%4]) with mapi id 15.20.0841.011; Wed, 6 Jun 2018
+ 14:45:08 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: Broadcast Admin and Finance <broadcastadmf@bowiestate.edu>
+To: Faculty <Faculty@bowiestate.edu>, Staff <Staff@bowiestate.edu>
+Subject: Giant Food and Human Resources Present: Weight Loss and Diets
+Thread-Topic: Giant Food and Human Resources Present: Weight Loss and Diets
+Thread-Index: AdP9pLaeMBHk87FHR+q+IZXzB82KJQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 6 Jun 2018 14:45:07 +0000
+Message-ID: <MW2PR16MB217024133D5B01E34E2BB0ECCE650@MW2PR16MB2170.namprd16.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator: <MW2PR16MB217024133D5B01E34E2BB0ECCE650@MW2PR16MB2170.namprd16.prod.outlook.com>
+x-vipre-scanned: 367DB2FC01068A367DB449
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: MW2PR16MB2170.namprd16.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [131.118.255.193]
+X-MS-Exchange-Organization-Network-Message-Id: a84a6dc2-7e7f-4c5e-9c00-08d5cbbc19c5
+X-MS-PublicTrafficType: Email
+X-Microsoft-Exchange-Diagnostics: 1;MW2PR16MB2170;35:JcGvpzwZ1lzHgd3AAUN+amEe58jNxX7byWptQIptgZ+yy5U3nmiIdDIsqEIIikm+/sYaGE0uXiCpkWsi2YvGUA==
+Return-Path: broadcastadmf@bowiestate.edu
+X-MS-Exchange-Organization-ExpirationStartTime: 06 Jun 2018 14:45:08.9844
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: Original Submit
+X-MS-Exchange-Organization-ExpirationInterval: 2:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: Original Submit
+X-Microsoft-Antispam: UriScan:(110887569346208);BCL:0;PCL:0;RULEID:(7020095)(4652020)(8989080)(5600026)(2017052603328)(7153060)(49563074)(7193020);SRVR:MW2PR16MB2201;
+X-Microsoft-Exchange-Diagnostics: 1;MW2PR16MB2201;3:r4nQ3TDEvcWan8VGj+hJGYglOeaBzxJm6dYRQdo4CfY+eU+C7H+riumTlVdKfmHk3EuEtIWCqQ9sNTVQvGKqAXEnNRRcmanhy/+RjujVRkYavFD9EaOip6nye/Atfhk+OZwAewLd+32tvuGzbyq/DhiGk2hA3LzyqSQwegB0LSrGsbGbMtebnsoV8DEPeH82sncshhqjUqwwhV34vz/YK1BKYQjGKjcv6m0fr5pxDt/jvbfNVaixH7Cp/RnEiYCxM+KyK9oLyOrVSqV8QnONjlOXb73DOm16oEQZ87tDIFY=;25:qXKkcXFP4On9NtMYatX5Ot/RZhcbNRN8+QF3GHLEecJ1UMohpeQEVMVrPH4+gmqFAsF/Q1qnR1PHA2KwQV7u77VULQ6XxIYlpZNE6a6zCKIM2aiBjFSuK9Ak8IaF/Plb9yhAkMNpdqI+w2hI4BHIOd2aZPQBo8L82kKeWQTOw3TvTs5xtNb0ssn2ic6i8ghBiNktF4oyfX0oDvQ2rY3WbVTtZgSJWYNf58Jf5pdMN/s=
+X-MS-TrafficTypeDiagnostic: MW2PR16MB2201:|MW2PR16MB2201:|MW2PR16MB2188:
+X-LD-Processed: 94728e82-9ce4-4d91-99c9-4adbe58ed910,ExtAddr,ExtAddr
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-Microsoft-Exchange-Diagnostics: 1;MW2PR16MB2188;31:MOglsrI6RU8YvosB6pedWTIoAXG84DNDJcE/w3x31m41sUYTHd6GwsOiSIbhBd3nsbkfVIDd906RuJCX3sRX+QFkhnFFnzXkwnyqwX/HOzVzsXwtPko84Jaf9+/+3wiL;4:T44hrgCiBztD+tzDKPq646LEPBI+biVWfe1mbDJ+KBWTqTZCHvLiLXkIP0G261Wuu6Racf/6x5dPnLFF+QN9Z5W1kBW7CuFv9RH7etWaZYom04QBdJ8iDocs9F3yM/LHKK5V9IsFeHrazSobOsxbKcb6udQizadRZEXNs+1kRvBJNnPc5lwqmeETFRPGad2nnmQ+I+LVaWerNVZOua0lVlDb9MN/VDWHywE9rCYUze/cpXf+RWz29qB7CNg6zVLDebKQqlMvoTxRwLkx7TmswA==;23:w4LuNjkzM5wS4X/RAgPE9gdmNPWUUD9s3T9c/S4j/Rx316QDb2jG676oOUuiBv1hpUaaxH67jI9p+7sIwTgOdsywEkOCtMJlErEsL347/m6ns5eY5ChIq7C2hJ0r+v9NtPl2qtBMDX35ZOgC24muqg==;6:cUOpXJthbQKGR2UObFS7x5BwNT4E6KyKSn5Nk+QKsp6neduvQUV/cLqQk0twLsGNpZ6hshLbrXt6X1I3LKoTMDP/cj5BTYoGV6jnK+ekoXQNrIWrgDjLg1WT9yem4fS7nlVPDYumFslCMJJViWKD0JE9nEd2cswGEGyneQRPPx/8RT5spq2ECs9+tmnC6Q9eV3sj+LdGI1zOcLzm+zL8TQ1IsbcZnOZNHKosP+D60ot8H6lkvFRgXmSKoapVcWwbD/Z7hjW94YQbGgBTtKCBu8FyrgzhtI2XEwhOwqE16qTytg6e5P19CqAFy+5WBSLu4lj4FZ8iwZBwz3MQyd76PDS8EaOQBGvA6uvCqPr1XMQ=
+X-Exchange-Antispam-Report-Test: UriScan:(28532068793085)(110887569346208)(21748063052155);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(102415395)(9101524173)(2401047)(8121501046)(823300264)(823310115)(10201501046)(93006095)(93001095)(3002001)(3231254)(944501410)(52105095)(201708071742011)(7699016);SRVR:MW2PR16MB2188;BCL:0;PCL:0;RULEID:;SRVR:MW2PR16MB2188;
+X-Forefront-Antispam-Report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:MW2PR16MB2188;H:MW2PR16MB2201.namprd16.prod.outlook.com;FPR:;SPF:None;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;MW2PR16MB2188;5:i90ITUicn4ap3aZfiQx0yFXUnhnhpB+q3ko5j6H9Jq9TLPPUOr2oezZ+/9HB5eWDVb7M6kTHZfD7SqUNhDmiJfWb4R3XrDGAfVGIAZT8bFwm7d6TjSBaxcWIy3lcQf7S/tJcHcRxty/WFScdi1NodIU9wWmuE6iClr2FwgfhJb8=;24:JjfDLNyFt0e5DjHkNY4w58HK/jAt7i+vNLPPSCVT220gcGUhHug/Yf5dItYCXyUkmwpqhkTvJESdR8C/q/x5P0ydpkWLx0UEcDCZCTcsZaw=;7:YRwdt3KChwhU4aZfBRMIRUGnEerMsuedzbmCS1kfgK1C7URS+ZnzmiPucVigNP2ifjVJv0/c5Zfgs8bZ7NjLBZNyuSDrogH6862po8RpBljRrZ1yuDjoV3SrW4SL46raDtX6OUH43Vx4l+GDCgzAmMJGwvnfd0HWz2nK5BzWj/r93HD83AwRfvDhWrBH7CU/cIoHyg27+BAvf2XMgN3l+R5gfiS/kWRtx1rb0Y3WSmuv6S/Sh2/rTvYkDo2AmKCT
+SpamDiagnosticOutput: 1:0
+X-MS-Office365-Filtering-Correlation-Id: a84a6dc2-7e7f-4c5e-9c00-08d5cbbc19c5
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 06 Jun 2018 14:45:07.4620
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 94728e82-9ce4-4d91-99c9-4adbe58ed910
+X-MS-Exchange-CrossTenant-Network-Message-Id: a84a6dc2-7e7f-4c5e-9c00-08d5cbbc19c5
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MW2PR16MB2188
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:15.4704008
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0841.000
+X-Microsoft-Exchange-Diagnostics:
+	1;MWHPR16MB1647;9:Pf//M8MLvMj9qZ63zYYIv0HD0v6fiDTI99zlumMEEEjzX1OOokQFUMnKR+8u/RiRqk0hjzLqoiRbNRxIIDAw7TUbL0qZLEH5nSZPrxR/GByf/PlDvXLEKmLEhx658NHx
+X-Microsoft-Antispam-Message-Info:
+	wM8YJ1TZOXof7/AphWiDMRdGxWtq9iWGmezY2SXiP2X5neC2bHxLKUw5N28MCYsdxuryqmKpnhxveVfK5FwauNmtWykmWUIVZvk7vMnjGwYaIKGwOCQkKN1IbVopiZT2AOUIQ2lJ3fBLjbjMbFx/b3kEVdMRT3bi0x0yD0rlR7d6c6jr91e3cFa1MEUa2f+d
+X-Microsoft-Exchange-Diagnostics:
+	1;MWHPR16MB1647;27:d2f1JiBGhfEqdBgh952sGj2APhyEHyTEc9NKmxoc7mmA8CHqSDA8Q/9zge481t0YUsesBwIlbktfd3W3YEzUfVziZHRAXKQVZrbuOvTWHAIU2UwRylc7/wO2W2sF3mB4
