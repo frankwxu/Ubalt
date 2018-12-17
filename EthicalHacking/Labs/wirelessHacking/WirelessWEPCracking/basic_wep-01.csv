@@ -1,9 +1,0 @@
-
-BSSID, First time seen, Last time seen, channel, Speed, Privacy, Cipher, Authentication, Power, # beacons, # IV, LAN IP, ID-length, ESSID, Key
-48:5D:36:06:CF:C8, 2018-11-20 09:59:16, 2018-11-20 10:16:17,  6,  54, WEP, WEP GCMP, OPN, -52,     9618,    25445,   0.  0.  0.  0,  10, FiOS-C8OGY, 
-
-Station MAC, First time seen, Last time seen, Power, # packets, BSSID, Probed ESSIDs
-74:75:48:E1:45:0D, 2018-11-20 09:59:22, 2018-11-20 10:16:05, -44,      216, 48:5D:36:06:CF:C8,FiOS-C8OGY
-44:61:32:C8:80:90, 2018-11-20 09:59:30, 2018-11-20 10:15:58, -40,      225, 48:5D:36:06:CF:C8,
-B0:35:9F:73:59:DD, 2018-11-20 09:59:51, 2018-11-20 10:16:16, -22,    20491, 48:5D:36:06:CF:C8,
-

