@@ -1,4 +1,4 @@
-# Forensics Science Lab Manual 
+# Forensic Science Lab Manual 
 
 The lab manual are developed by Dr. Frank Xu wxu@ubalt.edu. Email me if you have any questions or concerns.
 
