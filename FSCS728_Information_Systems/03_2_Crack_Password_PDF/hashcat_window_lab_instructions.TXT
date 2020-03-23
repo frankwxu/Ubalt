@@ -1,0 +1,37 @@
+
+reading:
+1. https://raw.githubusercontent.com/truongkma/ctf-tools/master/John/run/pdf2john.py
+2. https://blog.didierstevens.com/2017/12/26/cracking-encrypted-pdfs-part-1/
+
+
+Steps:
+1. wget https://www.dropbox.com/s/40ak15mk5xr8hvk/how_to_crack_pwd_123.pdf
+2. wget https://www.dropbox.com/s/ac8p6ftd58u5mgy/pdf2john.py
+3. chmod 777 pdf2john.py   // make it runable
+4 ./pdf2john.py how_to_crack_pwd_123.pdf
+
+You should see
+how_to_crack_pwd_123.pdf:$pdf$4*4*128*-1028*1*16*47c80fc3f9052746835aa758e4b9bf15*32*2169a9fce6aebbd0ec6e26c8d051135600000000000000000000000000000000*32*09bb0b88f5eeb18f87b82246a416c481a0877462a4cb401676f49569404c7a0a:::::how_to_crack_pwd_123.pdf
+
+Trouble shooting:
+Problem: /usr/bin/env: ‘python\r’: No such file or directory
+Solution: Open the file in vim or vi, and administer the following command:
+		vi pdf2john.py
+		:set ff=unix
+		:wq!
+
+5. Copy the following to a file named "hash_how_to_crack_pwd_123.txt" //note you only need part 2: between two :
+$pdf$4*4*128*-1028*1*16*47c80fc3f9052746835aa758e4b9bf15*32*2169a9fce6aebbd0ec6e26c8d051135600000000000000000000000000000000*32*09bb0b88f5eeb18f87b82246a416c481a0877462a4cb401676f49569404c7a0a
+6. hashcat64 -a 0 -m 10500  -o result.txt hash_how_to_crack_pwd_123.txt rockyou.txt --force
+Note: check example hash code to see why use mode -m 10500  https://hashcat.net/wiki/doku.php?id=example_hashes
+
+
+
+
+
+Extra credits: Can you crack M57-Jean_Solution.pdf?
+You can download the file use the command:
+wget https://www.dropbox.com/s/mtjv41oy6lln0af/M57-Jean_Solution.pdf   // instructor need to add the file at Dropbox "public" folder and then create a link
+
+Hash code information
+M57-Jean_Solution.pdf:$pdf$2*3*128*-4*1*16*0eb0aadfca4ee13d8cf1b72e829854cf*32*da792dd66aa82fd8e14960178211776000000000000000000000000000000000*32*b84b6663c63834bf0446ffc53433894ea668d96556c2d9968ad6d4287be75af9:::::M57-Jean_Solution.pdf
