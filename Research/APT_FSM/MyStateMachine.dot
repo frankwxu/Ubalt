@@ -1,0 +1,13 @@
+digraph {
+compound=true;
+subgraph cluster_StateMachine {
+label="PivyFSM";
+Exfiltrated [label="Exfiltrated"];
+Secure [label="Secure"];
+Explored [label="Explored"];
+Penetrated [label="Penetrated"];
+
+Exfiltrated -> Explored [ label="changeSrcIPFound"];
+Secure -> Penetrated [ label="pivyNameFound"];
+Penetrated -> Exfiltrated [ label="trafficFound"];
+Penetrated -> Explored [ label="changeSrcIPFound"];}}

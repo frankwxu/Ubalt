@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scxml initial="Secure" version="1.0"
+    xmlns="http://www.w3.org/2005/07/scxml" xmlns:sqrl="http://squirrelframework.org/squirrel">
+    <sqrl:fsm context-insensitive="true" context-type="java.lang.Void"
+        event-type="PivyFSM$PivyEvent" fsm-type="PivyFSM"
+        id="wYDJTbm8m0" state-type="PivyFSM$PivyState"/>
+    <state id="Exfiltrated">
+        <transition
+            cond="instance#org.squirrelframework.foundation.fsm.Conditions$Always"
+            event="changeSrcIPFound" sqrl:priority="1"
+            sqrl:type="EXTERNAL" target="Explored">
+            <sqrl:action content="method#transitFromExfiltratedToExploredOnchangeSrcIPFound:-10"/>
+        </transition>
+    </state>
+    <state id="Secure">
+        <transition
+            cond="instance#org.squirrelframework.foundation.fsm.Conditions$Always"
+            event="pivyNameFound" sqrl:priority="1" sqrl:type="EXTERNAL" target="Penetrated">
+            <sqrl:action content="method#transitFromSecureToPenetratedOnpivyNameFound:-10"/>
+        </transition>
+    </state>
+    <state id="Explored"/>
+    <state id="Penetrated">
+        <transition
+            cond="instance#org.squirrelframework.foundation.fsm.Conditions$Always"
+            event="trafficFound" sqrl:priority="1" sqrl:type="EXTERNAL" target="Exfiltrated">
+            <sqrl:action content="method#transitFromPenetratedToExfiltratedOntrafficFound:-10"/>
+        </transition>
+        <transition
+            cond="instance#org.squirrelframework.foundation.fsm.Conditions$Always"
+            event="changeSrcIPFound" sqrl:priority="1"
+            sqrl:type="EXTERNAL" target="Explored">
+            <sqrl:action content="method#transitFromPenetratedToExploredOnchangeSrcIPFound:-10"/>
+        </transition>
+    </state>
+</scxml>

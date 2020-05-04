@@ -1,0 +1,1 @@
+key = ‘^HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\myPoisonIvy_autorun’
